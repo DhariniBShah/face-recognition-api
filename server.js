@@ -9,6 +9,7 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
+require('dotenv').config();
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 
 /*  database chances to run on localhost
@@ -29,8 +30,7 @@ const db = knex({
 });
 
 const app = express();
-
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
     console.log(`app is running on port ${PORT}`);
 })
