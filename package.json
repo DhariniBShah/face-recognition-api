@@ -2,9 +2,9 @@
   "name": "face-recognition-api",
   "version": "1.0.0",
   "description": "api for face-recognition app",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Dharini Shah",
   "license": "ISC",
