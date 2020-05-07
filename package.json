@@ -2,7 +2,7 @@
   "name": "face-recognition-api",
   "version": "1.0.0",
   "description": "api for face-recognition app",
-  "main": "server.js",
+  "main": "service.js",
   "scripts": {
     "start": "node server.js"
   },
